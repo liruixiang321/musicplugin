@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'iconfont';  /* Project id 3643004 */
+  src: url('//at.alicdn.com/t/c/font_3643004_8mmww7wpvhw.woff2?t=1663506566740') format('woff2'),
+  url('//at.alicdn.com/t/c/font_3643004_8mmww7wpvhw.woff?t=1663506566740') format('woff'),
+  url('//at.alicdn.com/t/c/font_3643004_8mmww7wpvhw.ttf?t=1663506566740') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'iconfont' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-pause::before {
+  content: '\eb6c';
+}
+.icon-play::before{
+  content: '\eb5e';
+}
+.icon-next::before{
+  content: '\eb8a';
+}
+.icon-last::before{
+  content: '\eb8e';
+}
+.icon-shrink::before{
+  content: '\e682';
+}
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0)
+    }
+  
+    100% {
+      transform: rotate(360deg)
+    }
+  }
